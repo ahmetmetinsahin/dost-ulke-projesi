@@ -1,0 +1,79 @@
+body{
+   
+    background-color: darkred;
+   
+
+    }
+
+    .kapsayici{
+         display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    }
+
+    h1{
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+        transition: all 0.5s;
+    }
+
+    h1:hover{
+        letter-spacing: 5px;
+    }
+
+
+.kutu{
+    width: 500px;
+    height: 500px;
+    border-width: 2px;
+    border-color: white;
+    background-image: url(https://www.olkando.com/wp-content/uploads/2024/02/yuvarlak-turk-bayragi-tc-bayrak.png);
+    border-style: solid;
+    border-radius: 50%;
+    background-size: contain;
+    transition: all 0.5s;
+}
+
+.kutu:hover{
+    scale: 1.2;
+    rotate: 360deg;
+}
+
+.sol-kutu, .sag-kutu{
+width: 300px;
+height: 300px;
+border-radius: 50%;
+border: 2px solid white;
+}
+
+.sol-kutu:hover{
+    scale: 1.2;
+}
+
+.sol-kutu{
+    background-image: url(https://img.freepik.com/premium-vektor/filistin-bayragi-dugmesi-filistin-yuvarlak-bayragi-vektor-bayrak-sembolu-renkler-dogru_847658-1263.jpg);
+    background-size: contain;
+    transition: all 0.5s;
+}
+
+.sag-kutu{
+    background-image: url(https://media.istockphoto.com/id/867830416/vector/azerbaijan-flag-vector-round-flat-icon.jpg?s=612x612&w=is&k=20&c=VdAgIgQYD8QqSpWZjDDrnR40y4tCZbrFSnQJNl1fZIs=);
+    background-size: contain;
+    transition: all 0.5s;
+}
+
+.sag-kutu:hover{
+    scale: 1.2;
+}
+
+.yazar{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    color: white;
+    font-weight: bold;
+}
